@@ -9,7 +9,9 @@ public:
 };
 
 int main() {
-    int angka = 23;
+    int angka;
+    cout << "Masukan angka yang ingin anda hitung : ";
+    cin >> angka;
     int hasil = perhitunganAngkaGenap::pengecekanGenap(angka);
     if (hasil == 0) {
         cout << "Angka dari " << angka << " Adalah genap karena hasilnya " << hasil << endl;
